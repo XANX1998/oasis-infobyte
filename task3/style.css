@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginForm, #registerForm, #securePage {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
